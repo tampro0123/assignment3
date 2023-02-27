@@ -1,0 +1,39 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+    #about .avatar {
+        display: none;
+    }
+    #nav-bar .info {
+        display: none;
+    }
+    #about > .container {
+        padding: 0;
+    }
+    #personal-info {
+        background: #dfdcdc;
+    }
+    .job-item {
+        width: 50%;
+    }
+    .certifi-item {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    .image-certificate {
+        width: 100%;
+    }
+    .image-certificate img {
+        width: 100%;
+    }
+    .certi-info {
+        width: 100%;
+    }
+    .project-item {
+        width: 30%;
+    }
+    .project-item-info {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+    }
+}
